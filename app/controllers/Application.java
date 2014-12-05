@@ -9,9 +9,8 @@ public class Application extends Controller {
 
     public static Result index() {
         System.out.print("hello");
+        System.out.print("where are you");
         return ok(index.render("Your new application is ready."));
-
-
     }
 
 }
